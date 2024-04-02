@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100vh;
+    color: #F7418F;
+}
+
+.calcBody {
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #F7418F;
+}
+
+.calcScreen {
+    height: 40%;
+    width: 100%;
+    border: solid 5px #FEC7B4;
+    background: #faf4e0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.deletions {
+
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.material-symbols-outlined,
+.clearBtn,
+.superClearBtn {
+
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #FFF3C7;
+    box-shadow: 0 5px 5px #FEC7B4, 0 8px 6px 0 rgb(131, 24, 74);
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 100,
+        'GRAD' 10,
+        'opsz' 24;
+    text-align: center;
+}
+
+.calcButtons {
+    display: flex;
+    height: 60%;
+    gap: 10px;
+    grid-template-rows: 1fr 2fr;
+}
+
+.calcNumbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+    gap: 5px;
+
+}
+
+.calcSigns {
+    height: 100%;
+
+}
+
+.numbers {
+    border: solid 1px #FEC7B4;
+    border-radius: 5px;
+    background: #FFF3C7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 5px 10px #FEC7B4, 0 8px 15px 0 rgb(131, 24, 74);
+
+}
+
+.signsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100px;
+    height: 70%;
+    gap: 10px;
+}
+
+.signs {
+    background: #FFF3C7;
+    border-radius: 5px;
+    border: solid 1px #FEC7B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 5px #FEC7B4, 0 8px 6px 0 rgb(131, 24, 74);
+
+}
+
+.equalsContainer {
+    height: 30%;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.equals {
+    height: 85%;
+    border: solid 1px #FFF3C7;
+    background: #FEC7B4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px #FEC7B4, 0 8px 15px 0 rgb(131, 24, 74);
+}
